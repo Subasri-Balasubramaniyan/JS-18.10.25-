@@ -1,0 +1,59 @@
+1️⃣ Install Thunder Client Extension
+
+Open VS Code.
+
+Go to the Extensions tab (sidebar or Ctrl+Shift+X / Cmd+Shift+X).
+
+Search for Thunder Client.
+
+Click Install.
+
+2️⃣ Open Thunder Client
+
+After installing, you’ll see a Thunder Client icon on the left sidebar.
+
+Click it to open the interface.
+
+3️⃣ Create a New Request
+
+Click New Request.
+
+Select HTTP Method:
+
+POST for adding data
+
+GET for fetching data
+
+Enter the URL:
+
+http://localhost:3000/users/add   (for POST)
+http://localhost:3000/users/list  (for GET)
+
+4️⃣ Add JSON Body (for POST)
+
+Click the Body tab → select JSON.
+
+Enter your JSON data:
+
+{
+  "name": "Subasri"
+}
+
+5️⃣ Send the Request
+
+Click Send.
+
+You will see the response in Thunder Client, e.g.:
+
+{
+  "success": true,
+  "message": "User Subasri registered successfully."
+}
+
+
+For GET /users/list:
+
+[
+  { "name": "Subasri
+  }
+]

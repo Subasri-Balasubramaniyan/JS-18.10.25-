@@ -1,0 +1,32 @@
+✨ 4. Clean Code Practices
+
+A. Naming Conventions
+
+Use meaningful names:
+✅ getUserById() ❌ gubid()
+
+Classes → PascalCase, variables/functions → camelCase
+
+B. Small Functions
+
+Each function should do one thing.
+
+C. Comments & Documentation
+
+Add comments for why, not what (code should be self-explanatory).
+
+D. Avoid Repetition (DRY Principle)
+
+Don’t Repeat Yourself — reuse functions.
+
+E. Consistent Formatting
+
+Follow consistent indentation and spacing.
+
+F. Use Linters & Formatters
+
+Tools: ESLint, Prettier
+
+G. Error Handling
+
+Always handle exceptions gracefully.
